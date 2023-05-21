@@ -9,4 +9,7 @@ unzip bin.zip
 
 chmod a+x ~/.shuffle/bin/shuffle
 
+echo Install the default app.
+~/.shuffle/bin/shuffle shfl apps add cd dir help list mk rm
+
 echo shuffle has been successfully installed in '~/.shuffle/bin/shuffle'.
