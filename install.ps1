@@ -9,6 +9,6 @@ Invoke-WebRequest https://github.com/shflterm/install/raw/main/bin.zip -O bin.zi
 Expand-Archive bin.zip -DestinationPath .
 
 echo "Install the default app."
-~/.shuffle/bin/shuffle shfl apps add cd dir help list mk rm
+%APPDATA%/.shuffle/bin/shuffle shfl apps add cd dir help list mk rm
 
 echo "shuffle has been successfully installed in '%APPDATA%/.shuffle/bin/shuffle'."
