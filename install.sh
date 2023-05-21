@@ -7,7 +7,4 @@ cd .shuffle
 wget -O bin.zip https://github.com/shflterm/install/raw/main/bin.zip
 unzip bin.zip
 
-cd bin
-chmod +x shuffle
-
 echo shuffle has been successfully installed in '~/.shuffle/bin/shuffle'.
