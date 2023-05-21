@@ -1,3 +1,3 @@
 # Shuffle Installer
 ## Linux
-`wget https://github.com/shflterm/install/raw/main/install.sh | sh install.sh`
+```bash -c "$(wget -O - https://raw.githubusercontent.com/shflterm/install/main/install.sh)"```
